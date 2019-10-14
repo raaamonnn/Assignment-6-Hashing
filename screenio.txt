@@ -1,0 +1,231 @@
+************************************************************
+*	PROGRAMMED BY : Ramon Amini
+*	STUDENT ID    : 1086060
+*	CLASS         : M/W - 5pm
+*	ASSIGNMENT 6  : Hashing Algorithm
+************************************************************
+/******************************************************************************
+ *  Assignment 6 - Hashing Algorithm
+ * ----------------------------------------------------------------------------
+ *  INPUT:
+ * 	Part 1: Creates a map using the double hashing algorithm where:
+ *  h(k) = k mod 29h’(k) = 13 - k mod 13 N = 29 (size of the array)
+ *  
+ *  Part 2: Creates a map using the quadratic hashing algorithm where:
+ *  h(k) = k mod 29
+ *-----------------------------------------------------------------------------
+******************************************************************************/
+**************
+*** PART 1 ***
+**************
+INSERTING
+KEY: 18 DATA: Laguna Niguel
+
+INSERTING
+KEY: 41 DATA: Mission Viejo
+
+INSERTING
+KEY: 22 DATA: San Clemente
+
+INSERTING
+KEY: 44 DATA: Irvine
+
+INSERTING
+KEY: 58 DATA: Lake Forest
+
+INSERTING
+KEY: 32 DATA: San Diego
+
+INSERTING
+KEY: 49 DATA: Anaheim
+
+INSERTING
+KEY: 31 DATA: Los Angeles
+
+INSERTING
+KEY: 17 DATA: Orange
+
+INSERTING
+KEY: 72 DATA: Palm Springs
+
+INSERTING
+KEY: 41 DATA: Riverside
+
+INSERTING
+KEY: 19 DATA: Brea
+
+INSERTING
+KEY: 60 DATA: Santa Ana
+
+INSERTING
+KEY: 35 DATA: Tustin
+
+INSERTING
+KEY: 103 DATA: Ocean Side
+
+INSERTING
+KEY: 11 DATA: La Jolla
+
+INSERTING
+KEY: 18 DATA: Del Mar
+
+INSERTING
+KEY: 22 DATA: Aliso Viejo
+
+INSERTING
+KEY: 49 DATA: Laguna Beach
+
+INSERTING
+KEY: 42 DATA: Vista
+
+INSERTING
+KEY: 49 DATA: San Diego
+
+INSERTING
+KEY: 99 DATA: San Juan
+
+INSERTING
+KEY: 29 DATA: Dana Point
+
+INSERTING
+KEY: 88 DATA: El Segundo
+
+INSERTING
+KEY: 41 DATA: San Clemente
+
+INSERTING
+KEY: 62 DATA: Laguna Hills
+
+PRINTING THE MAP 
+Bucket# 0:	(11, La Jolla)
+Bucket# 1:	(17, Orange)
+Bucket# 2:	(18, Laguna Niguel)
+Bucket# 3:	(19, Brea)
+Bucket# 4:	(22, San Clemente)
+Bucket# 5:	(26, Del Mar)
+Bucket# 6:	(29, Dana Point)
+Bucket# 7:	(31, Los Angeles)
+Bucket# 8:	(32, San Diego)
+Bucket# 9:	(35, Tustin)
+Bucket# 10:	(41, San Clemente)
+Bucket# 11:	(42, Vista)
+Bucket# 12:	(43, Laguna Beach)
+Bucket# 13:	(44, Irvine)
+Bucket# 14:	(49, Anaheim)
+Bucket# 15:	(52, Aliso Viejo)
+Bucket# 16:	(60, Santa Ana)
+Bucket# 17:	(62, Laguna Hills)
+Bucket# 18:	(74, San Diego)
+Bucket# 19:	(88, El Segundo)
+Bucket# 20:	(99, San Juan)
+Bucket# 21:	(103, Ocean Side)
+
+**************
+*** PART 2 ***
+**************
+
+********************************************************
+*** NOW DOING THE SAME THING USING QUADRATIC HASHING ***
+********************************************************
+
+INSERTING
+KEY: 18 DATA: Laguna Niguel
+
+INSERTING
+KEY: 41 DATA: Mission Viejo
+
+INSERTING
+KEY: 22 DATA: San Clemente
+
+INSERTING
+KEY: 44 DATA: Irvine
+
+INSERTING
+KEY: 58 DATA: Lake Forest
+
+INSERTING
+KEY: 32 DATA: San Diego
+
+INSERTING
+KEY: 49 DATA: Anaheim
+
+INSERTING
+KEY: 31 DATA: Los Angeles
+
+INSERTING
+KEY: 17 DATA: Orange
+
+INSERTING
+KEY: 72 DATA: Palm Springs
+
+INSERTING
+KEY: 41 DATA: Riverside
+
+INSERTING
+KEY: 19 DATA: Brea
+
+INSERTING
+KEY: 60 DATA: Santa Ana
+
+INSERTING
+KEY: 35 DATA: Tustin
+
+INSERTING
+KEY: 103 DATA: Ocean Side
+
+INSERTING
+KEY: 11 DATA: La Jolla
+
+INSERTING
+KEY: 18 DATA: Del Mar
+
+INSERTING
+KEY: 22 DATA: Aliso Viejo
+
+INSERTING
+KEY: 49 DATA: Laguna Beach
+
+INSERTING
+KEY: 42 DATA: Vista
+
+INSERTING
+KEY: 49 DATA: San Diego
+
+INSERTING
+KEY: 99 DATA: San Juan
+
+INSERTING
+KEY: 29 DATA: Dana Point
+
+INSERTING
+KEY: 88 DATA: El Segundo
+
+INSERTING
+KEY: 41 DATA: San Clemente
+
+INSERTING
+KEY: 62 DATA: Laguna Hills
+
+PRINTING THE MAP 
+Bucket# 0:	(11, La Jolla)
+Bucket# 1:	(17, Orange)
+Bucket# 2:	(18, Laguna Niguel)
+Bucket# 3:	(19, Brea)
+Bucket# 4:	(21, Laguna Beach)
+Bucket# 5:	(22, San Clemente)
+Bucket# 6:	(23, Del Mar)
+Bucket# 7:	(25, San Diego)
+Bucket# 8:	(27, Aliso Viejo)
+Bucket# 9:	(29, Dana Point)
+Bucket# 10:	(31, Los Angeles)
+Bucket# 11:	(32, San Diego)
+Bucket# 12:	(35, Tustin)
+Bucket# 13:	(41, San Clemente)
+Bucket# 14:	(42, Vista)
+Bucket# 15:	(44, Irvine)
+Bucket# 16:	(49, Anaheim)
+Bucket# 17:	(60, Santa Ana)
+Bucket# 18:	(62, Laguna Hills)
+Bucket# 19:	(88, El Segundo)
+Bucket# 20:	(99, San Juan)
+Bucket# 21:	(103, Ocean Side)
